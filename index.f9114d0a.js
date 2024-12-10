@@ -1,0 +1,2 @@
+!function e(r,n){var t=!0,a=!1,l=void 0;try{for(var i,c=Object.keys(n)[Symbol.iterator]();!(t=(i=c.next()).done);t=!0){var o=i.value,u=document.createElement("li");if(u.innerText=o,r.appendChild(u),0!==Object.keys(n[o]).length){var d=document.createElement("ul");u.appendChild(d),e(d,n[o])}}}catch(e){a=!0,l=e}finally{try{t||null==c.return||c.return()}finally{if(a)throw l}}}(document.querySelector("#tree"),{Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}});
+//# sourceMappingURL=index.f9114d0a.js.map
